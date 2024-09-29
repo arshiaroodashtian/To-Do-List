@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(185, 107, 115) !important;
+  }
+.header1{
+    padding-top: 30px;
+    font-family: sintony;
+  }
+  .header2{
+    padding-top: 5px;
+    font-family: sintony;
+  }
+
+  .todolist-card {
+    background: linear-gradient(
+      90deg,
+      rgb(130, 123, 126) 0%,
+      rgb(142, 5, 39) 100%
+    );
+    min-width: 430px;
+    height: 520px;
+    border-radius: 10px;
+    cursor: context-menu;
+  }
+  .task-Inp {
+    border: none;
+    width: 300px;
+    border-radius: 50px;
+    outline: none;
+    font-family: sintony;
+    max-width: 100%; 
+    box-sizing: border-box;
+  }
+  .add-icon {
+    background-color: rgb(252, 250, 250);
+    width: 40px;
+    padding: 4px;
+    border-radius: 40%;
+    cursor: pointer;
+  }
+
+  .delete-icon{
+    background-color: rgb(252, 250, 250);
+    width: 40px;
+    padding: 4px;
+    border-radius: 40%;
+    cursor: pointer;
+    margin-left: 10px;
+    
+  }
+  ul{
+    background-color: rgb(252, 250, 250);
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-family: sintony;
+    padding-left: 10px;
+    margin-top:30px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    padding: 0;
+    max-width: 100%;
+  }
+
+
+  .checked {
+    text-decoration: line-through;
+    position: relative;
+  }
+  
+  .checked::before {
+    content: '✔';
+    position: absolute;
+    left: -20px;
+    color: green;
+  }
+
+  li {
+    word-wrap: break-word; 
+    white-space: pre-wrap; 
+    overflow-wrap: anywhere; 
+    max-width: 100%; 
+    box-sizing: border-box; 
+  }
